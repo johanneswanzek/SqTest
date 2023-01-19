@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net7.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <ApplicationManifest>app.manifest</ApplicationManifest>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Clowd.Squirrel" Version="3.0.210-g5f9f594" />
+      <PackageReference Include="MahApps.Metro" Version="2.4.9" />
+    </ItemGroup>
+
+</Project>
